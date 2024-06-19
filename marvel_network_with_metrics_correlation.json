@@ -23,7 +23,12 @@
                     "movie_name": "ant-man",
                     "release_date": "July 17, 2015"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Falcon": 0.6940775548048536,
+                "Cull Obsidian": 0.6771572765540752,
+                "Corvus Glaive": 0.6230168012166237
+            }
         },
         {
             "id": "Janet Van Dyne",
@@ -36,7 +41,12 @@
                     "movie_name": "ant-man-and-the-wasp-quantumania",
                     "release_date": "February 17, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Jentorra": 0.8658256880733949,
+                "Kang the Conqueror": 0.8658256880733948,
+                "Krylar": 0.8658256880733947
+            }
         },
         {
             "id": "Erik Killmonger",
@@ -49,7 +59,12 @@
                     "movie_name": "black-panther",
                     "release_date": "February 16, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Nakia": 0.6437502733315261,
+                "Attuma": 0.4322876205405225,
+                "Queen Ramonda": 0.43228762054052244
+            }
         },
         {
             "id": "Shuri",
@@ -74,7 +89,12 @@
                     "movie_name": "black-panther",
                     "release_date": "February 16, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Corvus Glaive": 0.8490741309116064,
+                "Proxima Midnight": 0.8490741309116064,
+                "Ebony Maw": 0.8490741309116063
+            }
         },
         {
             "id": "Doctor Erik Selvig",
@@ -99,7 +119,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ultron": 0.7714071108553681,
+                "Heimdall": 0.7667124505799687,
+                "Loki": 0.7357809778766047
+            }
         },
         {
             "id": "Rocket",
@@ -128,7 +153,12 @@
                     "movie_name": "guardians-of-the-galaxy",
                     "release_date": "August 1, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Mantis": 0.8867809374474678,
+                "Groot": 0.8615187955686014,
+                "Gamora": 0.8615187955686012
+            }
         },
         {
             "id": "Ego",
@@ -141,7 +171,12 @@
                     "movie_name": "guardians-of-the-galaxy-vol-2",
                     "release_date": "May 5, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Yondu": 0.8758905445740254,
+                "Cosmo": 0.8658256880733944,
+                "Kraglin": 0.8658256880733944
+            }
         },
         {
             "id": "Ghost",
@@ -154,7 +189,12 @@
                     "movie_name": "ant-man-and-the-wasp",
                     "release_date": "July 6, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Yellowjacket": 0.8129388446970602,
+                "Janet Van Dyne": 0.48678180095308654,
+                "Kang the Conqueror": 0.48678180095308654
+            }
         },
         {
             "id": "Thor",
@@ -199,7 +239,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Hulk": 0.8150819824501397,
+                "Thanos": 0.8116802481316532,
+                "Captain America": 0.7917957711440761
+            }
         },
         {
             "id": "Ebony Maw",
@@ -216,7 +261,12 @@
                     "movie_name": "avengers-infinity-war",
                     "release_date": "April 27, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Corvus Glaive": 0.9507679360403953,
+                "Proxima Midnight": 0.9507679360403952,
+                "Cull Obsidian": 0.9130641628841636
+            }
         },
         {
             "id": "America Chavez",
@@ -229,7 +279,12 @@
                     "movie_name": "doctor-strange-in-the-multiverse-of-madness",
                     "release_date": "May 6, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Baron Mordo": 0.7910714285714286,
+                "Christine Palmer": 0.7316276497352618,
+                "Dormammu": 0.6579073872627653
+            }
         },
         {
             "id": "Grandmaster",
@@ -242,7 +297,12 @@
                     "movie_name": "thor-ragnarok",
                     "release_date": "November 3, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Hela": 0.8796296296296297,
+                "Skurge": 0.8796296296296297,
+                "Odin": 0.7258868975518444
+            }
         },
         {
             "id": "Spider-Man",
@@ -275,7 +335,12 @@
                     "movie_name": "captain-america-civil-war",
                     "release_date": "May 6, 2016"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Corvus Glaive": 0.8931509807535952,
+                "Ebony Maw": 0.8931509807535951,
+                "Proxima Midnight": 0.8931509807535951
+            }
         },
         {
             "id": "Riri Williams",
@@ -288,7 +353,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Aneka": 0.9071428571428571,
+                "Namor": 0.9071428571428571,
+                "Attuma": 0.9071428571428571
+            }
         },
         {
             "id": "Iron Man",
@@ -333,7 +403,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Wanda Maximoff": 0.8905404121773781,
+                "Captain America": 0.8809821875108097,
+                "Thanos": 0.8795018304780781
+            }
         },
         {
             "id": "The Wasp",
@@ -354,7 +429,12 @@
                     "movie_name": "ant-man",
                     "release_date": "July 17, 2015"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Jentorra": 0.709100432610251,
+                "Janet Van Dyne": 0.7091004326102508,
+                "Krylar": 0.7091004326102506
+            }
         },
         {
             "id": "Cosmo",
@@ -367,7 +447,12 @@
                     "movie_name": "guardians-of-the-galaxy-volume-3",
                     "release_date": "May 5, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Yondu": 0.8758905445740254,
+                "Ego": 0.8658256880733944,
+                "Kraglin": 0.8658256880733944
+            }
         },
         {
             "id": "Makkari",
@@ -380,7 +465,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ikaris": 0.8796296296296299,
+                "Phastos": 0.8796296296296299,
+                "Sprite": 0.8796296296296299
+            }
         },
         {
             "id": "Prince Yan",
@@ -393,7 +483,12 @@
                     "movie_name": "the-marvels",
                     "release_date": "November 10, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ms. Marvel": 0.7910714285714284,
+                "Monica Rambeau": 0.7910714285714284,
+                "Goose the Cat": 0.5757679865493304
+            }
         },
         {
             "id": "Nakia",
@@ -410,7 +505,12 @@
                     "movie_name": "black-panther",
                     "release_date": "February 16, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ayo": 0.8037824659620243,
+                "Aneka": 0.8037824659620242,
+                "Namor": 0.8037824659620242
+            }
         },
         {
             "id": "Hela",
@@ -423,7 +523,12 @@
                     "movie_name": "thor-ragnarok",
                     "release_date": "November 3, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Grandmaster": 0.8796296296296297,
+                "Skurge": 0.8796296296296297,
+                "Odin": 0.7258868975518445
+            }
         },
         {
             "id": "Zeus",
@@ -436,7 +541,12 @@
                     "movie_name": "thor-love-and-thunder",
                     "release_date": "July 8, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "The Goats": 0.8243243243243249,
+                "Gorr": 0.8243243243243243,
+                "The Mighty Thor": 0.8243243243243243
+            }
         },
         {
             "id": "Captain Marvel",
@@ -457,7 +567,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Nick Fury": 0.7438072690591057,
+                "Cull Obsidian": 0.6785077220739509,
+                "Falcon": 0.6263291833960366
+            }
         },
         {
             "id": "Queen Ramonda",
@@ -470,7 +585,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Aneka": 0.9071428571428571,
+                "Namor": 0.9071428571428571,
+                "Attuma": 0.9071428571428571
+            }
         },
         {
             "id": "Namora",
@@ -483,7 +603,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Aneka": 0.9071428571428571,
+                "Namor": 0.9071428571428571,
+                "Attuma": 0.9071428571428571
+            }
         },
         {
             "id": "Yondu",
@@ -500,7 +625,12 @@
                     "movie_name": "guardians-of-the-galaxy",
                     "release_date": "August 1, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ego": 0.8758905445740254,
+                "Cosmo": 0.8758905445740254,
+                "Kraglin": 0.8758905445740254
+            }
         },
         {
             "id": "Xialing",
@@ -513,7 +643,12 @@
                     "movie_name": "shang-chi-and-the-legend-of-the-ten-rings",
                     "release_date": "September 3, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Wenwu": 0.7910714285714285,
+                "Death Dealer": 0.7910714285714285,
+                "Shang-Chi": 0.7910714285714285
+            }
         },
         {
             "id": "Loki",
@@ -542,7 +677,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Heimdall": 0.8210049475441766,
+                "Hulk": 0.7657364752268008,
+                "Hawkeye": 0.7462582687460955
+            }
         },
         {
             "id": "Ms. Marvel",
@@ -555,7 +695,12 @@
                     "movie_name": "the-marvels",
                     "release_date": "November 10, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Prince Yan": 0.7910714285714284,
+                "Monica Rambeau": 0.7910714285714284,
+                "Goose the Cat": 0.5757679865493304
+            }
         },
         {
             "id": "Valkyrie",
@@ -572,7 +717,12 @@
                     "movie_name": "thor-ragnarok",
                     "release_date": "November 3, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Grandmaster": 0.7010681840159744,
+                "Hela": 0.7010681840159741,
+                "Skurge": 0.7010681840159739
+            }
         },
         {
             "id": "Korath",
@@ -585,7 +735,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Bron-Char": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583,
+                "Ronan": 0.8996569468267583
+            }
         },
         {
             "id": "Ikaris",
@@ -598,7 +753,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296299,
+                "Phastos": 0.8796296296296299,
+                "Sprite": 0.8796296296296299
+            }
         },
         {
             "id": "Star-Lord",
@@ -627,7 +787,12 @@
                     "movie_name": "guardians-of-the-galaxy",
                     "release_date": "August 1, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Mantis": 0.8867809374474678,
+                "Groot": 0.8615187955686013,
+                "Gamora": 0.8615187955686011
+            }
         },
         {
             "id": "Black Widow",
@@ -668,7 +833,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Vision": 0.886652066173145,
+                "Thanos": 0.8768128132032343,
+                "War Machine": 0.8663971190668533
+            }
         },
         {
             "id": "Gorr",
@@ -681,7 +851,12 @@
                     "movie_name": "thor-love-and-thunder",
                     "release_date": "July 8, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "The Goats": 0.8243243243243249,
+                "Zeus": 0.8243243243243243,
+                "Korg": 0.8243243243243243
+            }
         },
         {
             "id": "Nebula",
@@ -710,7 +885,12 @@
                     "movie_name": "guardians-of-the-galaxy",
                     "release_date": "August 1, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Mantis": 0.8867809374474678,
+                "Groot": 0.8615187955686013,
+                "Drax": 0.8615187955686011
+            }
         },
         {
             "id": "Krylar",
@@ -723,7 +903,12 @@
                     "movie_name": "ant-man-and-the-wasp-quantumania",
                     "release_date": "February 17, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Kang the Conqueror": 0.865825688073395,
+                "Jentorra": 0.865825688073395,
+                "Janet Van Dyne": 0.8658256880733947
+            }
         },
         {
             "id": "Heimdall",
@@ -752,7 +937,12 @@
                     "movie_name": "thor-the-dark-world",
                     "release_date": "November 8, 2013"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Loki": 0.8210049475441766,
+                "Hulk": 0.806771863841635,
+                "Hawkeye": 0.803609701466319
+            }
         },
         {
             "id": "Vision",
@@ -769,7 +959,12 @@
                     "movie_name": "captain-america-civil-war",
                     "release_date": "May 6, 2016"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Winter Soldier": 0.909756294388825,
+                "Wanda Maximoff": 0.9044933279047092,
+                "Captain America": 0.8997993008062225
+            }
         },
         {
             "id": "Kraglin",
@@ -782,7 +977,12 @@
                     "movie_name": "guardians-of-the-galaxy-volume-3",
                     "release_date": "May 5, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Yondu": 0.8758905445740254,
+                "Ego": 0.8658256880733944,
+                "Cosmo": 0.8658256880733944
+            }
         },
         {
             "id": "M'Baku",
@@ -795,7 +995,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Aneka": 0.9071428571428571,
+                "Namor": 0.9071428571428571,
+                "Attuma": 0.9071428571428571
+            }
         },
         {
             "id": "Red Guardian",
@@ -808,7 +1013,12 @@
                     "movie_name": "black-widow",
                     "release_date": "July 9, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Rick Mason": 0.7910714285714285,
+                "Melina": 0.7910714285714284,
+                "Yelena": 0.7910714285714284
+            }
         },
         {
             "id": "Quaz",
@@ -821,7 +1031,12 @@
                     "movie_name": "ant-man-and-the-wasp-quantumania",
                     "release_date": "February 17, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Kang the Conqueror": 0.8658256880733949,
+                "Jentorra": 0.8658256880733949,
+                "Krylar": 0.8658256880733947
+            }
         },
         {
             "id": "Doctor Strange",
@@ -854,7 +1069,12 @@
                     "movie_name": "doctor-strange",
                     "release_date": "November 4, 2016"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Corvus Glaive": 0.8383718492197325,
+                "Ebony Maw": 0.8383718492197323,
+                "Proxima Midnight": 0.8383718492197323
+            }
         },
         {
             "id": "Hawkeye",
@@ -883,7 +1103,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Captain America": 0.8916444417515363,
+                "Thanos": 0.8876354751131262,
+                "Hulk": 0.8825794493351087
+            }
         },
         {
             "id": "Drax",
@@ -912,7 +1137,12 @@
                     "movie_name": "guardians-of-the-galaxy",
                     "release_date": "August 1, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Mantis": 0.8867809374474678,
+                "Groot": 0.8615187955686013,
+                "Nebula": 0.8615187955686011
+            }
         },
         {
             "id": "Phastos",
@@ -925,7 +1155,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296299,
+                "Ikaris": 0.8796296296296299,
+                "Sprite": 0.8796296296296299
+            }
         },
         {
             "id": "Sprite",
@@ -938,7 +1173,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296299,
+                "Ikaris": 0.8796296296296299,
+                "Phastos": 0.8796296296296299
+            }
         },
         {
             "id": "The Collector",
@@ -959,7 +1199,12 @@
                     "movie_name": "thor-the-dark-world",
                     "release_date": "November 8, 2013"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Mantis": 0.8661899764643284,
+                "Proxima Midnight": 0.8175827419484053,
+                "Corvus Glaive": 0.8175827419484052
+            }
         },
         {
             "id": "Bron-Char",
@@ -972,7 +1217,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583,
+                "Ronan": 0.8996569468267583
+            }
         },
         {
             "id": "Melina",
@@ -985,7 +1235,12 @@
                     "movie_name": "black-widow",
                     "release_date": "July 9, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Rick Mason": 0.7910714285714285,
+                "Red Guardian": 0.7910714285714284,
+                "Yelena": 0.7910714285714284
+            }
         },
         {
             "id": "Monica Rambeau",
@@ -998,7 +1253,12 @@
                     "movie_name": "the-marvels",
                     "release_date": "November 10, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Prince Yan": 0.7910714285714284,
+                "Ms. Marvel": 0.7910714285714284,
+                "Goose the Cat": 0.5757679865493304
+            }
         },
         {
             "id": "Korg",
@@ -1011,7 +1271,12 @@
                     "movie_name": "thor-love-and-thunder",
                     "release_date": "July 8, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "The Goats": 0.8243243243243249,
+                "The Mighty Thor": 0.8243243243243245,
+                "Gorr": 0.8243243243243243
+            }
         },
         {
             "id": "Mantis",
@@ -1036,7 +1301,12 @@
                     "movie_name": "guardians-of-the-galaxy-vol-2",
                     "release_date": "May 5, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Rocket": 0.8867809374474678,
+                "Star-Lord": 0.8867809374474678,
+                "Nebula": 0.8867809374474678
+            }
         },
         {
             "id": "Cassie Lang",
@@ -1049,7 +1319,12 @@
                     "movie_name": "ant-man-and-the-wasp-quantumania",
                     "release_date": "February 17, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Kang the Conqueror": 0.865825688073395,
+                "Jentorra": 0.865825688073395,
+                "Krylar": 0.8658256880733947
+            }
         },
         {
             "id": "Everett Ross",
@@ -1062,7 +1337,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Aneka": 0.9071428571428574,
+                "Namor": 0.9071428571428574,
+                "Attuma": 0.9071428571428574
+            }
         },
         {
             "id": "Ultron",
@@ -1075,7 +1355,12 @@
                     "movie_name": "avengers-age-of-ultron",
                     "release_date": "May 1, 2015"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Hawkeye": 0.8110694607645474,
+                "Doctor Erik Selvig": 0.7714071108553681,
+                "Ulysses Klaue": 0.7629215796881403
+            }
         },
         {
             "id": "Kingo",
@@ -1088,7 +1373,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296299,
+                "Ikaris": 0.8796296296296299,
+                "Phastos": 0.8796296296296299
+            }
         },
         {
             "id": "Ulysses Klaue",
@@ -1105,7 +1395,12 @@
                     "movie_name": "avengers-age-of-ultron",
                     "release_date": "May 1, 2015"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ultron": 0.7629215796881403,
+                "Hawkeye": 0.758755262885237,
+                "Captain America": 0.7304854564675248
+            }
         },
         {
             "id": "Gilgamesh",
@@ -1118,7 +1413,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296299,
+                "Ikaris": 0.8796296296296299,
+                "Phastos": 0.8796296296296299
+            }
         },
         {
             "id": "Corvus Glaive",
@@ -1135,7 +1435,12 @@
                     "movie_name": "avengers-infinity-war",
                     "release_date": "April 27, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Proxima Midnight": 0.9507679360403957,
+                "Ebony Maw": 0.9507679360403953,
+                "Cull Obsidian": 0.9130641628841637
+            }
         },
         {
             "id": "Maria Rambeau",
@@ -1148,7 +1453,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Bron-Char": 0.8996569468267583,
+                "Ronan": 0.8996569468267583
+            }
         },
         {
             "id": "Proxima Midnight",
@@ -1165,7 +1475,12 @@
                     "movie_name": "avengers-infinity-war",
                     "release_date": "April 27, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Corvus Glaive": 0.9507679360403957,
+                "Ebony Maw": 0.9507679360403952,
+                "Cull Obsidian": 0.9130641628841639
+            }
         },
         {
             "id": "Hank Pym",
@@ -1178,7 +1493,12 @@
                     "movie_name": "ant-man-and-the-wasp-quantumania",
                     "release_date": "February 17, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Kang the Conqueror": 0.8658256880733949,
+                "Jentorra": 0.8658256880733949,
+                "Krylar": 0.8658256880733947
+            }
         },
         {
             "id": "Ronan",
@@ -1191,7 +1511,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Bron-Char": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583
+            }
         },
         {
             "id": "Green Goblin",
@@ -1204,7 +1529,12 @@
                     "movie_name": "spider-man-no-way-home",
                     "release_date": "December 17, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Doctor Octopus": 0.7910714285714288,
+                "Electro": 0.7910714285714286,
+                "Christine Palmer": 0.4710479388706478
+            }
         },
         {
             "id": "Gamora",
@@ -1233,7 +1563,12 @@
                     "movie_name": "guardians-of-the-galaxy",
                     "release_date": "August 1, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Mantis": 0.8867809374474678,
+                "Groot": 0.8615187955686013,
+                "Rocket": 0.8615187955686012
+            }
         },
         {
             "id": "Falcon",
@@ -1250,7 +1585,12 @@
                     "movie_name": "ant-man",
                     "release_date": "July 17, 2015"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Cull Obsidian": 0.899675303348774,
+                "Ebony Maw": 0.8395749169004827,
+                "Corvus Glaive": 0.8395749169004826
+            }
         },
         {
             "id": "Thanos",
@@ -1275,7 +1615,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "War Machine": 0.9139996647838393,
+                "Captain America": 0.9040240719244599,
+                "Wanda Maximoff": 0.8979993013102662
+            }
         },
         {
             "id": "Att-Lass",
@@ -1288,7 +1633,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Bron-Char": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583
+            }
         },
         {
             "id": "The Mighty Thor",
@@ -1301,7 +1651,12 @@
                     "movie_name": "thor-love-and-thunder",
                     "release_date": "July 8, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "The Goats": 0.8243243243243249,
+                "Korg": 0.8243243243243245,
+                "Zeus": 0.8243243243243243
+            }
         },
         {
             "id": "Talos",
@@ -1314,7 +1669,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Bron-Char": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583
+            }
         },
         {
             "id": "Aneka",
@@ -1327,7 +1687,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Everett Ross": 0.9071428571428574,
+                "Namor": 0.9071428571428574,
+                "Attuma": 0.9071428571428574
+            }
         },
         {
             "id": "Ajak",
@@ -1340,7 +1705,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Thena": 0.8796296296296299,
+                "Makkari": 0.8796296296296298,
+                "Ikaris": 0.8796296296296298
+            }
         },
         {
             "id": "Minn-Erva",
@@ -1353,7 +1723,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Bron-Char": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583
+            }
         },
         {
             "id": "Hulk",
@@ -1390,7 +1765,12 @@
                     "movie_name": "the-avengers",
                     "release_date": "May 4, 2012"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Hawkeye": 0.8825794493351087,
+                "Thanos": 0.8810164625912433,
+                "Captain America": 0.8801505540748559
+            }
         },
         {
             "id": "Cull Obsidian",
@@ -1403,7 +1783,12 @@
                     "movie_name": "avengers-endgame",
                     "release_date": "April 26, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Proxima Midnight": 0.9130641628841639,
+                "Corvus Glaive": 0.9130641628841637,
+                "Ebony Maw": 0.9130641628841636
+            }
         },
         {
             "id": "War Machine",
@@ -1440,7 +1825,12 @@
                     "movie_name": "iron-man-3",
                     "release_date": "May 3, 2013"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Captain America": 0.9188367467985146,
+                "Thanos": 0.9139996647838393,
+                "Wanda Maximoff": 0.8828817012621568
+            }
         },
         {
             "id": "Rick Mason",
@@ -1453,7 +1843,12 @@
                     "movie_name": "black-widow",
                     "release_date": "July 9, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Red Guardian": 0.7910714285714285,
+                "Melina": 0.7910714285714285,
+                "Yelena": 0.7910714285714284
+            }
         },
         {
             "id": "Black Panther",
@@ -1482,7 +1877,12 @@
                     "movie_name": "captain-america-civil-war",
                     "release_date": "May 6, 2016"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Corvus Glaive": 0.8600635013780246,
+                "Proxima Midnight": 0.8600635013780245,
+                "Ebony Maw": 0.8600635013780243
+            }
         },
         {
             "id": "Christine Palmer",
@@ -1499,7 +1899,12 @@
                     "movie_name": "doctor-strange",
                     "release_date": "November 4, 2016"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "America Chavez": 0.7316276497352618,
+                "Baron Mordo": 0.7316276497352618,
+                "Dormammu": 0.6804902091718595
+            }
         },
         {
             "id": "Winter Soldier",
@@ -1532,7 +1937,12 @@
                     "movie_name": "captain-america-the-first-avenger",
                     "release_date": "July 22, 2011"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Vision": 0.909756294388825,
+                "Spider-Man": 0.8860244503312585,
+                "Thanos": 0.8847540580152645
+            }
         },
         {
             "id": "Goose the Cat",
@@ -1549,7 +1959,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Phil Coulson": 0.7877714445484171,
+                "Yon-Rogg": 0.787771444548417,
+                "Korath": 0.7877714445484169
+            }
         },
         {
             "id": "Vulture",
@@ -1562,7 +1977,12 @@
                     "movie_name": "spider-man-homecoming",
                     "release_date": "July 7, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Shocker": 0.7411504424778759,
+                "War Machine": 0.4829608346231371,
+                "Black Widow": 0.47118432698489676
+            }
         },
         {
             "id": "Wenwu",
@@ -1575,7 +1995,12 @@
                     "movie_name": "shang-chi-and-the-legend-of-the-ten-rings",
                     "release_date": "September 3, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Xialing": 0.7910714285714285,
+                "Death Dealer": 0.7910714285714285,
+                "Shang-Chi": 0.7910714285714285
+            }
         },
         {
             "id": "Wanda Maximoff",
@@ -1608,7 +2033,12 @@
                     "movie_name": "captain-america-the-winter-soldier",
                     "release_date": "April 4, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Vision": 0.9044933279047092,
+                "Thanos": 0.8979993013102662,
+                "Iron Man": 0.8905404121773781
+            }
         },
         {
             "id": "Ayo",
@@ -1621,7 +2051,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Namor": 0.9071428571428574,
+                "Attuma": 0.9071428571428574,
+                "Everett Ross": 0.9071428571428571
+            }
         },
         {
             "id": "Death Dealer",
@@ -1634,7 +2069,12 @@
                     "movie_name": "shang-chi-and-the-legend-of-the-ten-rings",
                     "release_date": "September 3, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Xialing": 0.7910714285714285,
+                "Wenwu": 0.7910714285714285,
+                "Shang-Chi": 0.7910714285714285
+            }
         },
         {
             "id": "Doctor Octopus",
@@ -1647,7 +2087,12 @@
                     "movie_name": "spider-man-no-way-home",
                     "release_date": "December 17, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Green Goblin": 0.7910714285714288,
+                "Electro": 0.7910714285714284,
+                "Christine Palmer": 0.4710479388706479
+            }
         },
         {
             "id": "Odin",
@@ -1668,7 +2113,12 @@
                     "movie_name": "thor-the-dark-world",
                     "release_date": "November 8, 2013"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Hela": 0.7258868975518445,
+                "Grandmaster": 0.7258868975518444,
+                "Skurge": 0.7258868975518444
+            }
         },
         {
             "id": "The Goats",
@@ -1681,7 +2131,12 @@
                     "movie_name": "thor-love-and-thunder",
                     "release_date": "July 8, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Zeus": 0.8243243243243249,
+                "Gorr": 0.8243243243243249,
+                "Korg": 0.8243243243243249
+            }
         },
         {
             "id": "Shang-Chi",
@@ -1694,7 +2149,12 @@
                     "movie_name": "shang-chi-and-the-legend-of-the-ten-rings",
                     "release_date": "September 3, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Xialing": 0.7910714285714285,
+                "Wenwu": 0.7910714285714285,
+                "Death Dealer": 0.7910714285714285
+            }
         },
         {
             "id": "Captain America",
@@ -1751,7 +2211,12 @@
                     "movie_name": "captain-america-the-first-avenger",
                     "release_date": "July 22, 2011"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "War Machine": 0.9188367467985146,
+                "Thanos": 0.9040240719244599,
+                "Vision": 0.8997993008062225
+            }
         },
         {
             "id": "Yon-Rogg",
@@ -1764,7 +2229,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Bron-Char": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583
+            }
         },
         {
             "id": "Baron Mordo",
@@ -1777,7 +2247,12 @@
                     "movie_name": "doctor-strange-in-the-multiverse-of-madness",
                     "release_date": "May 6, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "America Chavez": 0.7910714285714286,
+                "Christine Palmer": 0.7316276497352618,
+                "Dormammu": 0.6579073872627651
+            }
         },
         {
             "id": "Kang the Conqueror",
@@ -1790,7 +2265,12 @@
                     "movie_name": "ant-man-and-the-wasp-quantumania",
                     "release_date": "February 17, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Krylar": 0.865825688073395,
+                "Cassie Lang": 0.865825688073395,
+                "Quaz": 0.8658256880733949
+            }
         },
         {
             "id": "Druig",
@@ -1803,7 +2283,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296298,
+                "Ikaris": 0.8796296296296298,
+                "Phastos": 0.8796296296296298
+            }
         },
         {
             "id": "Phil Coulson",
@@ -1816,7 +2301,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Korath": 0.8996569468267583,
+                "Bron-Char": 0.8996569468267583,
+                "Maria Rambeau": 0.8996569468267583
+            }
         },
         {
             "id": "Ying Nan",
@@ -1829,7 +2319,12 @@
                     "movie_name": "shang-chi-and-the-legend-of-the-ten-rings",
                     "release_date": "September 3, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Katy": 0.7910714285714286,
+                "Shang-Chi": 0.7910714285714285,
+                "Xialing": 0.7910714285714283
+            }
         },
         {
             "id": "Katy",
@@ -1842,7 +2337,12 @@
                     "movie_name": "shang-chi-and-the-legend-of-the-ten-rings",
                     "release_date": "September 3, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ying Nan": 0.7910714285714286,
+                "Xialing": 0.7910714285714284,
+                "Wenwu": 0.7910714285714284
+            }
         },
         {
             "id": "Groot",
@@ -1871,7 +2371,12 @@
                     "movie_name": "guardians-of-the-galaxy",
                     "release_date": "August 1, 2014"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Mantis": 0.8867809374474674,
+                "Rocket": 0.8615187955686014,
+                "Star-Lord": 0.8615187955686013
+            }
         },
         {
             "id": "Namor",
@@ -1884,7 +2389,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Everett Ross": 0.9071428571428574,
+                "Aneka": 0.9071428571428574,
+                "Ayo": 0.9071428571428574
+            }
         },
         {
             "id": "Okoye",
@@ -1909,7 +2419,12 @@
                     "movie_name": "black-panther",
                     "release_date": "February 16, 2018"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ebony Maw": 0.8490741309116063,
+                "Corvus Glaive": 0.8490741309116063,
+                "Proxima Midnight": 0.8490741309116063
+            }
         },
         {
             "id": "Sersi",
@@ -1922,7 +2437,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296298,
+                "Ikaris": 0.8796296296296298,
+                "Phastos": 0.8796296296296298
+            }
         },
         {
             "id": "Yelena",
@@ -1935,7 +2455,12 @@
                     "movie_name": "black-widow",
                     "release_date": "July 9, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Red Guardian": 0.7910714285714284,
+                "Melina": 0.7910714285714284,
+                "Rick Mason": 0.7910714285714284
+            }
         },
         {
             "id": "Electro",
@@ -1948,7 +2473,12 @@
                     "movie_name": "spider-man-no-way-home",
                     "release_date": "December 17, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Green Goblin": 0.7910714285714286,
+                "Doctor Octopus": 0.7910714285714284,
+                "Christine Palmer": 0.4710479388706479
+            }
         },
         {
             "id": "Nick Fury",
@@ -1973,7 +2503,12 @@
                     "movie_name": "captain-marvel",
                     "release_date": "March 8, 2019"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Captain Marvel": 0.7438072690591057,
+                "Cull Obsidian": 0.6840898845591691,
+                "Falcon": 0.6308847976746239
+            }
         },
         {
             "id": "Thena",
@@ -1986,7 +2521,12 @@
                     "movie_name": "eternals",
                     "release_date": "November 5, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Makkari": 0.8796296296296299,
+                "Ikaris": 0.8796296296296299,
+                "Phastos": 0.8796296296296299
+            }
         },
         {
             "id": "Attuma",
@@ -1999,7 +2539,12 @@
                     "movie_name": "black-panther-wakanda-forever",
                     "release_date": "November 11, 2022"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Everett Ross": 0.9071428571428574,
+                "Aneka": 0.9071428571428574,
+                "Ayo": 0.9071428571428574
+            }
         },
         {
             "id": "Skurge",
@@ -2012,7 +2557,12 @@
                     "movie_name": "thor-ragnarok",
                     "release_date": "November 3, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Grandmaster": 0.8796296296296297,
+                "Hela": 0.8796296296296297,
+                "Odin": 0.7258868975518444
+            }
         },
         {
             "id": "Dormammu",
@@ -2025,7 +2575,12 @@
                     "movie_name": "doctor-strange",
                     "release_date": "November 4, 2016"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Christine Palmer": 0.6804902091718595,
+                "America Chavez": 0.6579073872627653,
+                "Baron Mordo": 0.6579073872627651
+            }
         },
         {
             "id": "Yellowjacket",
@@ -2038,7 +2593,12 @@
                     "movie_name": "ant-man",
                     "release_date": "July 17, 2015"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Ghost": 0.8129388446970602,
+                "The Wasp": 0.5118515461828553,
+                "Jentorra": 0.3845457352529177
+            }
         },
         {
             "id": "Wong",
@@ -2067,7 +2627,12 @@
                     "movie_name": "doctor-strange",
                     "release_date": "November 4, 2016"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Corvus Glaive": 0.8636877382621551,
+                "Proxima Midnight": 0.8636877382621551,
+                "Ebony Maw": 0.8636877382621548
+            }
         },
         {
             "id": "Taskmaster",
@@ -2080,7 +2645,12 @@
                     "movie_name": "black-widow",
                     "release_date": "July 9, 2021"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Yelena": 0.7910714285714284,
+                "Red Guardian": 0.7910714285714283,
+                "Melina": 0.7910714285714283
+            }
         },
         {
             "id": "Jentorra",
@@ -2093,7 +2663,12 @@
                     "movie_name": "ant-man-and-the-wasp-quantumania",
                     "release_date": "February 17, 2023"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Krylar": 0.865825688073395,
+                "Cassie Lang": 0.865825688073395,
+                "Janet Van Dyne": 0.8658256880733949
+            }
         },
         {
             "id": "Abomination",
@@ -2106,7 +2681,12 @@
                     "movie_name": "the-incredible-hulk",
                     "release_date": "June 13, 2008"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Grandmaster": 0.32163376045133857,
+                "Hela": 0.32163376045133857,
+                "Skurge": 0.3216337604513384
+            }
         },
         {
             "id": "Shocker",
@@ -2119,7 +2699,12 @@
                     "movie_name": "spider-man-homecoming",
                     "release_date": "July 7, 2017"
                 }
-            ]
+            ],
+            "top_correlations": {
+                "Vulture": 0.7411504424778759,
+                "War Machine": 0.48296083462313727,
+                "Black Widow": 0.4711843269848969
+            }
         }
     ],
     "links": [

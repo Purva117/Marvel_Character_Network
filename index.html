@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Graph</title>
+    <title>Marvel Network</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container">
+    <div id="container">
         <div id="left-pane">
-            <h1>Marvel Network Graph</h1>
             <div id="network"></div>
         </div>
         <div id="right-pane">
-            <div id="stats">
-                <!-- Network stats will be displayed here -->
-            </div>
-            <div id="centrality-chart">
-                <!-- Centrality chart will be displayed here -->
+            <h2 id="character-name">Select a character</h2>
+            <div id="character-details">
+                <div id="centrality-stats">
+                    <h3>Centrality Stats:</h3>
+                    <p>Degree:</p>
+                    <p>Betweenness Centrality:</p>
+                    <p>Closeness Centrality:</p>
+                </div>
+                <div id="movies-list">
+                    <h3>Movies:</h3>
+                </div>
+                <div id="correlations">
+                    <h3>Top Correlated Characters:</h3>
+                </div>
             </div>
         </div>
     </div>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
