@@ -25,10 +25,24 @@ body {
 }
 
 #right-pane {
+    position: relative; /* Ensure relative positioning for stacking context */
     width: 30%;
-    background-color: #282828;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+#right-pane::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image_copy.jpg');
+    background-size: cover;
+    background-position: right;
+    opacity: 0.2;
+    z-index: -1; /* Place the background image behind other content */
 }
 
 h1 {
