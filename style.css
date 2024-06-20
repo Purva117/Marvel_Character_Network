@@ -14,7 +14,7 @@ body {
 }
 
 #left-pane {
-    width: 70%;
+    width: 65%;
     background-color: #282828;
     overflow: hidden;
     position: relative;
@@ -26,7 +26,7 @@ body {
 
 #right-pane {
     position: relative; /* Ensure relative positioning for stacking context */
-    width: 30%;
+    width: 35%;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0,0,0,0.1);
 }
@@ -44,6 +44,66 @@ body {
     opacity: 0.2;
     z-index: -1; /* Place the background image behind other content */
 }
+
+#right-pane-content {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+}
+
+#right-pane-content h3 {
+    color: #80f0ff; /* Different styling for headings */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+#right-pane-content p {
+    margin: 10px 0; /* Adjust spacing between paragraphs */
+}
+
+#right-pane-content span {
+    font-weight: bold; /* Different styling for the values */
+    color: #ffab91; /* Different color for the values */
+}
+
+.stat-label1 {
+    font-weight: bold;
+    color: #80f0ff; /* Example color for labels */
+}
+.stat-value1 {
+    font-weight: normal;
+    color: #ffffff; /* Example color for values */
+}
+
+.stat-label2 {
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    color: #80ff91; /* Example color for labels */
+}
+
+.stat-value2 {
+    font-weight: normal;
+    text-align: right;
+    float: right;
+    color: #ffffff; /* Example color for values */
+}
+
+.stat-label3 {
+    font-weight: bold;
+    text-align: left;
+    color: #ff8080; /* Example color for labels */
+}
+.stat-value3 {
+    font-weight: normal;
+    text-align: right;
+    color: #ffffff; /* Example color for values */
+}
+
+.movie-item {
+    margin-bottom: 10px; /* Adjust spacing between movie items */
+}
+
 
 h1 {
     text-align: center;
