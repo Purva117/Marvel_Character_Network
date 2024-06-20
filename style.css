@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Quicksand;
     display: flex;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
 
 #left-pane {
     width: 65%;
-    background-color: #282828;
+    background-color: #121212;
     overflow: hidden;
     position: relative;
 }
@@ -24,6 +24,7 @@ body {
     font-size: 35px;
     color: #ffcc00;
     text-shadow: 0 0 10px #ffcc00;
+    padding-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -124,7 +125,7 @@ h2 {
 .node circle {
     fill: #FF5722;
     transition: r 0.15s, fill 0.15s, opacity 0.15s;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
 }
 
 .node circle.selected {

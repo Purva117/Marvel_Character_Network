@@ -4,7 +4,7 @@ const height = document.getElementById("left-pane").clientHeight;
 const svg = d3.select("#network").append("svg")
     .attr("width", width)
     .attr("height", height)
-    .style("background-color", "#282828")
+    .style("background-color", "#121212")
     .call(d3.zoom().on("zoom", function(event) {
         g.attr("transform", event.transform);
     }))
@@ -55,7 +55,7 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
     // Calculate original node radius based on degree centrality or other metrics
     originalNodeRadius = d3.scaleSqrt()
         .domain([0, d3.max(graph.nodes, d => nodeDegree[d.id])])
-        .range([2, 12]); // Adjust the range for your desired min and max radius
+        .range([2, 42]); // Adjust the range for your desired min and max radius
 
     const simulation = d3.forceSimulation(graph.nodes)
         .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
@@ -85,6 +85,7 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
     node.append("circle")
         .attr("r", d => originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)))
         .attr("fill", "#FF5722")
+        .attr("stroke", '#FFFFFF')
         .attr("id", d => `node-${d.id}`)
         .on("mouseover", function(event, d) {
             d3.select(this).transition()
