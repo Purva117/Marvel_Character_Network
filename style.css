@@ -31,7 +31,6 @@ body {
     box-shadow: -2px 0 5px rgba(0,0,0,0.1);
 }
 
-
 h1 {
     text-align: center;
     color: #ffffff;
@@ -43,9 +42,16 @@ h2 {
 }
 
 .node circle {
-    stroke: #b7f7ff;
-    stroke-width: 1.5px;
-    transition: r 0.15s, fill 0.15s;
+    fill: #FF5722;
+    transition: r 0.15s, fill 0.15s, opacity 0.15s;
+}
+
+.node circle.selected {
+    fill: #FFAB91;
+}
+
+.node circle.dull {
+    opacity: 0.3;
 }
 
 .link {

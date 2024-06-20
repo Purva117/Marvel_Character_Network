@@ -12,6 +12,9 @@ const svg = d3.select("#network").append("svg")
 
 const g = svg.append("g");
 
+// Variable to store original node radius
+let originalNodeRadius;
+
 d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
     const nodeDegree = {};
     graph.nodes.forEach(node => {
@@ -22,6 +25,11 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         nodeDegree[link.source] += 1;
         nodeDegree[link.target] += 1;
     });
+
+    // Calculate original node radius based on degree centrality or other metrics
+    originalNodeRadius = d3.scaleSqrt()
+        .domain([0, d3.max(graph.nodes, d => nodeDegree[d.id])])
+        .range([2, 12]); // Adjust the range for your desired min and max radius
 
     const simulation = d3.forceSimulation(graph.nodes)
         .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
@@ -49,19 +57,22 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         .on("click", selectNode);
 
     node.append("circle")
-        .attr("r", d => Math.sqrt(nodeDegree[d.id] || 1) * 4)
+        .attr("r", d => originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)))
         .attr("fill", "#FF5722")
+        .attr("id", d => `node-${d.id}`)
         .on("mouseover", function(event, d) {
             d3.select(this).transition()
                 .duration(150)
-                .attr("r", Math.sqrt(nodeDegree[d.id] || 1) * 8)
+                .attr("r", originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)) * 2)
                 .attr("fill", "#FFAB91");
         })
         .on("mouseout", function(event, d) {
-            d3.select(this).transition()
-                .duration(150)
-                .attr("r", Math.sqrt(nodeDegree[d.id] || 1) * 4)
-                .attr("fill", "#FF5722");
+            if (!d.selected) {
+                d3.select(this).transition()
+                    .duration(150)
+                    .attr("r", originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)))
+                    .attr("fill", "#FF5722");
+            }
         });
 
     node.append("title").text(d => d.id);
@@ -124,7 +135,65 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         tooltip.transition().duration(500).style("opacity", 0);
     }
 
+    let selectedNode = null;
+
     function selectNode(event, d) {
+        // Check if the node is already selected
+        if (selectedNode && selectedNode.id === d.id) {
+            // Deselect the node
+            d.selected = false;
+            d3.select(`#node-${d.id}`)
+                .select("circle")
+                .classed("selected", false)
+                .classed("dull", false)
+                .attr("r", originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)))
+                .attr("fill", "#FFAB91");
+    
+            selectedNode = null;
+    
+            // Revert all nodes back to normal
+            node.selectAll("circle")
+                .classed("dull", false)
+                .attr("r", d => originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)));
+    
+            d3.select("#character-name").text("Select a character");
+            d3.select("#centrality-stats").html(`
+                <h3>Centrality Stats:</h3>
+                <p>Degree:</p>
+                <p>Betweenness Centrality:</p>
+                <p>Closeness Centrality:</p>
+            `);
+            d3.select("#movies-list").html("<h3>Movies:</h3>");
+            d3.select("#correlations").html("<h3>Top Correlated Characters:</h3>");
+    
+            return;
+        }
+    
+        if (selectedNode) {
+            selectedNode.selected = false;
+            d3.select(`#node-${selectedNode.id}`)
+                .select("circle")
+                .classed("selected", false)
+                .classed("dull", true)
+                .attr("r", originalNodeRadius(Math.sqrt(nodeDegree[selectedNode.id] || 1)));
+        }
+    
+        d.selected = true;
+        selectedNode = d;
+    
+        d3.select(`#node-${d.id}`)
+            .select("circle")
+            .classed("selected", true)
+            .classed("dull", false);
+    
+        node.selectAll("circle")
+            .filter(node => !node.selected)
+            .classed("dull", true)
+            .attr("r", d => originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)));
+    
+        d3.select(this).select("circle")
+            .classed("dull", false);
+    
         d3.select("#character-name").text(d.id);
         d3.select("#centrality-stats").html(`
             <h3>Centrality Stats:</h3>
@@ -132,7 +201,7 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
             <p>Betweenness Centrality: ${(d.betweenness_centrality ? d.betweenness_centrality.toFixed(2) : "N/A")}</p>
             <p>Closeness Centrality: ${(d.closeness_centrality ? d.closeness_centrality.toFixed(2) : "N/A")}</p>
         `);
-
+    
         if (d.movies) {
             const moviesHtml = d.movies.map(movie => `
                 <p>${movie.movie_name} (${movie.release_date})</p>
@@ -141,7 +210,7 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         } else {
             d3.select("#movies-list").html("<p>No movies data available.</p>");
         }
-
+    
         if (d.top_correlations) {
             const correlationsHtml = Object.entries(d.top_correlations)
                 .map(([character, value]) => `<p>${character}: ${value.toFixed(2)}</p>`)
@@ -150,7 +219,9 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         } else {
             d3.select("#correlations").html("<p>No correlation data available.</p>");
         }
-
+    
         tooltip.style("opacity", 0); // Hide tooltip when a node is selected
     }
+    
+    
 });
