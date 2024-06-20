@@ -15,6 +15,32 @@ const g = svg.append("g");
 // Variable to store original node radius
 let originalNodeRadius;
 
+// Initial setup for character name, centrality stats, top correlations, and movies
+d3.select("#character-name").html(`
+    <div class="character-name-box">
+        Select a character
+    </div>
+`);
+d3.select("#centrality-stats").html(`
+    <div class="centrality-stats-box">
+        <h3>Centrality Stats:</h3>
+        <p><span class="stat-label1">Degree: </span></p>
+        <p><span class="stat-label1">Betweenness Centrality: </span></p>
+        <p><span class="stat-label1">Closeness Centrality: </span> </p>
+    </div>
+`);
+d3.select("#correlations").html(`
+    <div class="correlations-box">
+        <h3>Top Correlated Characters:</h3>
+    </div>
+`);
+d3.select("#movies-list").html(`
+    <div class="movies-box">
+        <h3>Movies:</h3>
+    </div>
+`);
+
+
 d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
     const nodeDegree = {};
     graph.nodes.forEach(node => {
@@ -156,16 +182,17 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
                 .classed("dull", false)
                 .attr("r", d => originalNodeRadius(Math.sqrt(nodeDegree[d.id] || 1)));
     
-            d3.select("#character-name").text("Select a character");
+            d3.select("#character-name").html(`<div class="character-name-box">Select a character</div>`);
             d3.select("#centrality-stats").html(`
-                <h3>Centrality Stats:</h3>
-                <p><span class="stat-label1">Degree: </span></p>
-                <p><span class="stat-label1">Betweenness Centrality: </span></p>
-                <p><span class="stat-label1">Closeness Centrality: </span> </p>
+                <div class="centrality-stats-box">
+                    <h3>Centrality Stats:</h3>
+                    <p><span class="stat-label1">Degree: </span></p>
+                    <p><span class="stat-label1">Betweenness Centrality: </span></p>
+                    <p><span class="stat-label1">Closeness Centrality: </span> </p>
+                </div>
             `);
-            d3.select("#correlations").html("<h3>Top Correlated Characters:</h3>");
-            d3.select("#movies-list").html("<h3>Movies:</h3>");
-            
+            d3.select("#correlations").html(`<div class="correlations-box"><h3>Top Correlated Characters:</h3></div>`);
+            d3.select("#movies-list").html(`<div class="movies-box"><h3>Movies:</h3></div>`);
     
             return;
         }
@@ -195,26 +222,32 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         d3.select(this).select("circle")
             .classed("dull", false);
     
-        d3.select("#character-name").text(d.id);
-        d3.select("#centrality-stats").html(`
-            <h3>Centrality Stats:</h3>
-            <p><span class="stat-label1">Degree: </span> <span class="stat-value1">${(d.degree_centrality ? d.degree_centrality.toFixed(2) : "N/A")}</span></p>
-            <p><span class="stat-label1">Betweenness Centrality: </span> <span class="stat-value1">${(d.betweenness_centrality ? d.betweenness_centrality.toFixed(2) : "N/A")}</span></p>
-            <p><span class="stat-label1">Closeness Centrality: </span> <span class="stat-value1">${(d.closeness_centrality ? d.closeness_centrality.toFixed(2) : "N/A")}</span></p>
+        d3.select("#character-name").html(`
+            <div class="character-name-box">
+                ${d.id}
+            </div>
         `);
-
+        d3.select("#centrality-stats").html(`
+            <div class="centrality-stats-box">
+                <h3>Centrality Stats:</h3>
+                <p><span class="stat-label1">Degree: </span> <span class="stat-value1">${(d.degree_centrality ? d.degree_centrality.toFixed(2) : "N/A")}</span></p>
+                <p><span class="stat-label1">Betweenness Centrality: </span> <span class="stat-value1">${(d.betweenness_centrality ? d.betweenness_centrality.toFixed(2) : "N/A")}</span></p>
+                <p><span class="stat-label1">Closeness Centrality: </span> <span class="stat-value1">${(d.closeness_centrality ? d.closeness_centrality.toFixed(2) : "N/A")}</span></p>
+            </div>
+        `);
+    
         if (d.top_correlations) {
             const correlationsHtml = Object.entries(d.top_correlations)
                 .map(([character, value]) => `<p><span class="stat-label3">${character}:</span> <span class="stat-value3">${value.toFixed(2)}</span></p>`)
                 .join('');
-            d3.select("#correlations").html(`<h3>Top Correlated Characters:</h3>${correlationsHtml}`);
+            d3.select("#correlations").html(`<div class="correlations-box"><h3>Top Correlated Characters:</h3>${correlationsHtml}</div>`);
         } else {
-            d3.select("#correlations").html("<p>No correlation data available.</p>");
+            d3.select("#correlations").html(`<div class="correlations-box"><p>No correlation data available.</p></div>`);
         }
     
         if (d.movies) {
             let moviesHtml = ''; // Initialize an empty string to store concatenated HTML
-        
+    
             d.movies.forEach((movie, index) => {
                 moviesHtml += `
                     <div class="movie-item">
@@ -226,15 +259,15 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
                     moviesHtml += '<br>';
                 }
             });
-        
-            d3.select("#movies-list").html(`<h3>Movies:</h3>${moviesHtml}`);
+    
+            d3.select("#movies-list").html(`<div class="movies-box"><h3>Movies:</h3>${moviesHtml}</div>`);
         } else {
-            d3.select("#movies-list").html("<p>No movies data available.</p>");
+            d3.select("#movies-list").html(`<div class="movies-box"><p>No movies data available.</p></div>`);
         }
-        
-        
+    
         tooltip.style("opacity", 0); // Hide tooltip when a node is selected
     }
+    
     
     
 });

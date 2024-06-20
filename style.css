@@ -21,24 +21,29 @@ body {
 }
 
 #left-pane h1 {
-    margin: 20px 0 0 20px;
+    font-size: 35px;
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #right-pane {
     position: relative; /* Ensure relative positioning for stacking context */
-    width: 35%;
+    width: 35%; /* Adjust width as needed */
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto; /* Enable vertical scrolling for content */
 }
 
 #right-pane::before {
     content: '';
-    position: absolute;
+    position: fixed; /* Fixed position for the background image */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('image_copy.jpg');
+    background-image: url('image_copy.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: right;
     opacity: 0.2;
@@ -50,6 +55,7 @@ body {
     z-index: 1;
     color: #ffffff;
 }
+
 
 #right-pane-content h3 {
     color: #80f0ff; /* Different styling for headings */
@@ -118,10 +124,12 @@ h2 {
 .node circle {
     fill: #FF5722;
     transition: r 0.15s, fill 0.15s, opacity 0.15s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .node circle.selected {
     fill: #FFAB91;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
 }
 
 .node circle.dull {
@@ -165,4 +173,50 @@ h3 {
     pointer-events: none;
     color: #ffffff;
     z-index: 10;
+}
+
+
+/* Character name box */
+.character-name-box {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00;
+}
+
+.centrality-stats-box {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+}
+
+.correlations-box {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+}
+
+.movies-box {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+    padding-bottom: 25px;
 }
