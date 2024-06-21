@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is an interactive network visualization of Marvel characters, designed to provide an engaging way to explore the relationships and characteristics of various characters from the Marvel Universe. The visualization is created using D3.js, an open-source JavaScript library for producing dynamic, interactive data visualizations in web browsers.
+This project is an interactive network visualization of MCU characters, designed to provide an engaging way to explore the relationships and characteristics of various characters from the Marvel Universe. The visualization is created using D3.js, an open-source JavaScript library for producing dynamic, interactive data visualizations in web browsers.
 
 ## Features
 
