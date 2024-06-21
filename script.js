@@ -61,7 +61,7 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
         .force("charge", d3.forceManyBody().strength(-200))
         .force("center", d3.forceCenter(width / 2, height / 2))
-        .force("collision", d3.forceCollide().radius(d => Math.sqrt(nodeDegree[d.id] || 1) * 8));
+        .force("collision", d3.forceCollide().radius(d => Math.sqrt(nodeDegree[d.id] || 1) * 0.05));
 
     const link = g.append("g")
         .attr("class", "links")
@@ -70,7 +70,7 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
         .enter().append("line")
         .attr("class", "link")
         .style("stroke", "#999")
-        .style("stroke-opacity", 0.6);
+        .style("stroke-opacity", 0.25);
 
     const node = g.append("g")
         .attr("class", "nodes")
@@ -256,8 +256,8 @@ d3.json("marvel_network_with_metrics_correlation.json").then(function(graph) {
                     </div>`;
                 
                 // Add a line break after each movie item except the last one
-                if (index < d.movies.length - 1) {
-                    moviesHtml += '<br>';
+                if (index < d.movies.length) {
+                    moviesHtml += '<br class="movie-break">';
                 }
             });
     

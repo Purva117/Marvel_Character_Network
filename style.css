@@ -44,7 +44,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('image_copy.jpg'); /* Replace with your image path */
+    background-image: url('image.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: right;
     opacity: 0.2;
@@ -108,9 +108,23 @@ body {
 }
 
 .movie-item {
-    margin-bottom: 10px; /* Adjust spacing between movie items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
+.movie-item p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.movie-break {
+    height: 0px; /* Ensures the height is controlled by the margin */
+}
+
+#movies-list {
+    display: flex;
+    flex-direction: column;
+}
 
 h1 {
     text-align: center;
@@ -135,11 +149,6 @@ h2 {
 
 .node circle.dull {
     opacity: 0.3;
-}
-
-.link {
-    stroke: #797979;
-    stroke-opacity: 0.6;
 }
 
 #character-name {
@@ -192,7 +201,7 @@ h3 {
 }
 
 .centrality-stats-box {
-    border: 1px solid #ffffff;
+    border: 1px solid #80f0ff;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
@@ -202,7 +211,7 @@ h3 {
 }
 
 .correlations-box {
-    border: 1px solid #ffffff;
+    border: 1px solid #ff8080;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
@@ -212,12 +221,11 @@ h3 {
 }
 
 .movies-box {
-    border: 1px solid #ffffff;
+    border: 1px solid #80ff91;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5px);
     margin-bottom: 20px;
-    padding-bottom: 25px;
 }
