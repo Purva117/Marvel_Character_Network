@@ -23,7 +23,7 @@ body {
 #left-pane h1 {
     font-size: 35px;
     color: #ffcc00;
-    text-shadow: 0 0 10px #ffcc00;
+    text-shadow: 0 0 5px #ffcc00;
     padding-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -70,12 +70,12 @@ body {
 
 #right-pane-content span {
     font-weight: bold; /* Different styling for the values */
-    color: #ffab91; /* Different color for the values */
+    color: #68ff3a; /* Different color for the values */
 }
 
 .stat-label1 {
     font-weight: bold;
-    color: #80f0ff; /* Example color for labels */
+    color: #ffffff; /* Example color for labels */
 }
 .stat-value1 {
     font-weight: normal;
@@ -86,7 +86,7 @@ body {
     font-weight: bold;
     text-align: left;
     float: left;
-    color: #80ff91; /* Example color for labels */
+    color: #ffffff; /* Example color for labels */
 }
 
 .stat-value2 {
@@ -99,7 +99,7 @@ body {
 .stat-label3 {
     font-weight: bold;
     text-align: left;
-    color: #ff8080; /* Example color for labels */
+    color: #ffffff; /* Example color for labels */
 }
 .stat-value3 {
     font-weight: normal;
@@ -137,13 +137,13 @@ h2 {
 }
 
 .node circle {
-    fill: #FF5722;
+    fill: #ff3333;
     transition: r 0.15s, fill 0.15s, opacity 0.15s;
-    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
 .node circle.selected {
-    fill: #FFAB91;
+    fill: #ffcf4b;
     box-shadow: 0 0 15px rgba(0,0,0,0.7);
 }
 
@@ -166,9 +166,22 @@ h2 {
 }
 
 h3 {
-    color: #ffffff;
-    border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
+}
+
+#centrality-stats h3 {
+    color: #80f0ff;
+    border-bottom: 1px solid #80f0ff;
+}
+
+#correlations h3 {
+    color: #ff8080;
+    border-bottom: 1px solid #ff8080;
+}
+
+#movies-list h3 {
+    color: #80ff91;
+    border-bottom: 1px solid #80ff91;
 }
 
 .tooltip {
@@ -197,14 +210,14 @@ h3 {
     text-align: center;
     margin-bottom: 20px;
     color: #ffcc00;
-    text-shadow: 0 0 10px #ffcc00;
+    text-shadow: 0 0 6px #ffcc00;
 }
 
 .centrality-stats-box {
     border: 1px solid #80f0ff;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5px);
     margin-bottom: 20px;
@@ -214,7 +227,7 @@ h3 {
     border: 1px solid #ff8080;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5px);
     margin-bottom: 20px;
@@ -224,7 +237,7 @@ h3 {
     border: 1px solid #80ff91;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5px);
     margin-bottom: 20px;
